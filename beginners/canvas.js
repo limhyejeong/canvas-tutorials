@@ -140,6 +140,8 @@ function animate() {
    for (let i = 0; i < circleArray.length; i++) {
       circleArray[i].update();
    }
+
 }
 
+init();
 animate();
